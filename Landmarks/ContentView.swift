@@ -18,7 +18,7 @@ struct ContentView: View {
         ZStack {
             VStack {
                 ScrollView {
-                    VStack(alignment: .leading, spacing: 16) {
+                    VStack(alignment: .leading, spacing: 15) {
                         
                         Spacer(minLength: 300)
                         VStack{
