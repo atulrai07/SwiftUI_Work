@@ -30,7 +30,7 @@ struct ContentView: View {
                     ZStack{
                         Rectangle()
                             .fill(Color.gray)
-                            .frame(width: 100, height: 30)
+                            .frame(width: 100, height:30)
                             .clipShape(Capsule())
                         Label("All", systemImage: "arrow.2.circlepath.circle")
                     }
